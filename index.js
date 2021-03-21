@@ -3817,7 +3817,7 @@ break
 					break
 				case 'dono':
 					memein = await kagApi.memeindo()
-					buffer = await getBuffer(`https://i.imgur.com/AnizaD7.jpg`)
+					buffer = await getBuffer(`https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWom5tla81UMZqmKzVbofmwsiJNvezC910Nw&usqp=CAU`)
 					client.sendMessage(from, buffer, image, {quoted: mek, caption: '*CRIADOR:*matheus\n*YOUTUBE:* off\n*WPP:* wa.me/+5592994604627\n*INSTA:* off\n\n\nEspero que tenham gostado do bot 🙂🤝'})
 					break
 				case 'setprefix':
