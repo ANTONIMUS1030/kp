@@ -1,9 +1,9 @@
-git clone https://github.com/Darkziinh/darkbot3.0
+git clone https://github.com/ANTONIMUS1030/wabot1
 
-cd darkbot3.0
+cd wabot1
 
 chmod +x badut.sh
 
 sh badut.sh
 
-senha: darkzin
+senha: ATNMS
