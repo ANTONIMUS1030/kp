@@ -259,7 +259,7 @@ async function starts() {
 				} catch {
 					ppimg = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
 				}
-				teks = `Tchau @${num.split('@')[0]} Ja foi tarde 😂👋`
+				teks = `Tchau @${num.split('@')[0]} saiu pq é gay 😂👋`
 				let buff = await getBuffer(ppimg)
 				client.sendMessage(mdata.id, buff, MessageType.image, {caption: teks, contextInfo: {"mentionedJid": [num]}})
 			}
@@ -300,35 +300,35 @@ async function starts() {
 			const isCmd = body.startsWith(prefix)
 
 			mess = {
-					wait: '❬❗❭ Espere',
-					success: '️❬ ✔ ❭ Sucesso 🖤',
-					levelon: '❬ ✔ ❭ *leveling* *ativado*',
-					leveloff: ' ❬ X ❭  *leveling* *desativado*',
-					levelnoton: '❬ X ❭ *leveling não ativado*',
+					wait: '⚠️ Espere',
+					success: '️ ✔  Sucesso 🖤',
+					levelon: ' ✔  *leveling* *ativado*',
+					leveloff: '  ⚠️   *leveling* *desativado*',
+					levelnoton: ' ⚠️  *leveling não ativado*',
 					levelnol: '*error* 0 °-°',
 					error: {
 				stick: '*Bem, falhe, tente novamente ^_^*',
 				Iv: '𝗠𝗮𝗮𝗳 𝗹𝗶𝗻𝗸 𝘁𝗶𝗱𝗮𝗸 𝘃𝗮𝗹𝗶𝗱☹️'
 				},
 				only: {
-					group: '[❗] Este comando só pode ser usado em grupos! ❌',
-					premium: '[❗] ESTE PEDIDO É SO PARA *USUÁRIOS PREMIUMS*',
-					mod: '[❗] ESTE PEDIDO É ESPECÍFICO PARA USUARIO MOD DARK BOT*',
+					group: '⚠️ Este comando só pode ser usado em grupos! ⚠️',
+					premium: '⚠️ ESTE PEDIDO É SO PARA *USUÁRIOS PREMIUMS ⚠️,
+					mod: '⚠️ ESTE PEDIDO É ESPECÍFICO PARA USUARIO MOD DARK BOT ⚠️',
 					benned: 'Você para a banda, por favor, contate o proprietário para abrir sua banda',
-					ownerG: '[❗] Proprietário? Este é um recurso especial para o proprietário do bot ❌',
-					ownerB: '[❗] Proprietário? Este é um recurso especial para o proprietário do bot ❌',
-					userB: `──「 LISTA 」──\nOlá Kak !\nDesculpe, irmã. Você não está registrado como amigo de Dark. Registre-se para fazer amizade com o bot Dark por meio, \n\nCommand : ${prefix}daftar nama|idade\nExemplo : ${prefix}daftar Dark|17\n\n──「 Dark BOT 」──`,
-					admin: '[❗] Este comando só pode ser usado por administradores de grupo! ❌',
-					Badmin: ' [❗] Este comando só pode ser usado quando o bot se torna administrador! ❌',
+					ownerG: '⚠️ Proprietário? Este é um recurso especial para o proprietário do bot ⚠️',
+					ownerB: '⚠️ Proprietário? Este é um recurso especial para o proprietário do bot ⚠️',
+					userB: `──「 LISTA 」──\nOlá Kak !\nDesculpe, irmão. Você não está registrado como amigo de 𝕊𝔼ℝ𝔾𝕀ℕ 𝔻𝕆 𝔾ℝ𝔸𝕍𝔼. Registre-se para fazer amizade com o bot por meio, \n\nCommand : ${prefix}daftar nama|idade\nExemplo : ${prefix}daftar matheus |17\n\n──「 𝕊𝔼ℝ𝔾𝕀ℕ 𝔻𝕆 𝔾ℝ𝔸𝕍𝔼 」──`,
+					admin: '⚠️ Este comando só pode ser usado por administradores de grupo! ⚠️',
+					Badmin: '⚠️ Este comando só pode ser usado quando o bot se torna administrador! ⚠️',
 				}
 			}
 
 			const botNumber = client.user.jid
-			const ownerNumber = ["5522996215481@s.whatsapp.net"] // replace this with your number
+			const ownerNumber = ["5592994604627@s.whatsapp.net"] // replace this with your number
 			const mod = [ownerNumber,"5522996215481@s.whatsapp.net"]//ubah nomor lo
-			const adminbotnumber = ["5522996215481@s.whatsapp.net"]//ubah nomor lo
-			const frendsowner = ["5522996215481@s.whatsapp.net"]//ubah nomor lo
-			const premium = ["5522996215481@s.whatsapp.net","559784130980@s.whatsapp.net","557599941062@s.whatsapp.net","558598669655@s.whatsapp.net","5511949051934@s.whatsapp.net","554792091566@s.whatsapp.net","558699541889@s.whatsapp.net","559294313229@s.whatsapp.net","554298653614@s.whatsapp.net","12267740582@s.whatsapp.net"]
+			const adminbotnumber = ["5592994604627@s.whatsapp.net"]//ubah nomor lo
+			const frendsowner = ["5592994604627@s.whatsapp.net"]//ubah nomor lo
+			const premium = ["5592994604627@s.whatsapp.net","5592994604627@s.whatsapp.net","5592994604627@s.whatsapp.net","5592994604627@s.whatsapp.net","5592994604627@s.whatsapp.net","5592994604627@s.whatsapp.net","5592994604627@s.whatsapp.net","5592994604627@s.whatsapp.net","5592994604627@s.whatsapp.net","5592994604627@s.whatsapp.net"]
 			const isGroup = from.endsWith('@g.us')
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
 			const groupMetadata = isGroup ? await client.groupMetadata(from) : ''
@@ -2317,7 +2317,8 @@ break
 					anu = await fetchJson(`https://arugaz.herokuapp.com/api/howgay`, {method: 'get'})
 					reply('De acordo com o percentual gay:\n\n'+anu.desc+anu.persen)
 					break
-			  case 'next':               
+			  case 'next':
+               
                 if (isGroup) return  reply( 'NÃO PODE ESTAR EM GRUPO KAK')
                 await reply('Ache um companheiro >_<')
                 await reply(`wa.me/${anug}`)
@@ -2631,7 +2632,7 @@ break
 					ran = getRandom('.mp4')
 					exec(`ffmpeg -i ${media} ${ran}`, (err) => {
 						fs.unlinkSync(media)
-						if (err) return reply('❌ Falha ao converter vídeo para mp3 ❌')
+						if (err) return reply('⚠️ Falha ao converter vídeo para mp3 ⚠️')
 						buffer = fs.readFileSync(ran)
 						client.sendMessage(from, buffer, audio, {mimetype: 'audio/mp4', quoted: mek})
 						fs.unlinkSync(ran)
@@ -3425,7 +3426,7 @@ break
 								console.log(`Error : ${err}`)
 								fs.unlinkSync(media)
 								tipe = media.endsWith('.mp4') ? 'video' : 'gif'
-								reply(`❌ Falhou, no momento da conversão ${tipe} para o adesivo`)
+								reply(`⚠️ Falhou, no momento da conversão ${tipe} para o adesivo`)
 							})
 							.on('end', function () {
 								console.log('Finish')
@@ -3817,7 +3818,7 @@ break
 				case 'dono':
 					memein = await kagApi.memeindo()
 					buffer = await getBuffer(`https://i.imgur.com/AnizaD7.jpg`)
-					client.sendMessage(from, buffer, image, {quoted: mek, caption: '*CRIADOR:* 𝐷𝐴𝑅𝐾⃖ ☔\n*YOUTUBE:* https://bit.ly/2MD43V2\n*WPP:* wa.me/+5522996215481\n*INSTA:* @th.darkys\n\n\nEspero que tenham gostado do bot 🐊🚩️'})
+					client.sendMessage(from, buffer, image, {quoted: mek, caption: '*CRIADOR:*matheus\n*YOUTUBE:* off\n*WPP:* wa.me/+5592994604627\n*INSTA:* off\n\n\nEspero que tenham gostado do bot 🙂🤝'})
 					break
 				case 'setprefix':
 					if (args.length < 1) return
