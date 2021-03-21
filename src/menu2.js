@@ -1,9 +1,9 @@
 const menu2 = (prefix) => { 
 	return `           
 ╔═══════════════════      
-║    • ──── ✾ ──── •
-║        » MENU «
-║    • ──── ✾ ──── •
+║       • ──── ✾ ──── •
+║              » MENU «
+║       • ──── ✾ ──── •
 ║
 ╠➥ *${prefix}figu*
 ╠➥ *${prefix}toimg*
@@ -17,9 +17,9 @@ const menu2 = (prefix) => {
 ╠➥ *${prefix}wait [na legenda]*
 ╠➥ *${prefix}setprefix*
 ║
-║    • ──── ✾ ──── •
-║       » IMAGENS «
-║    • ──── ✾ ──── •
+║     • ──── ✾ ──── •
+║          » IMAGENS «
+║     • ──── ✾ ──── •
 ║ ➸ ${prefix}loli* [off]
 ║ ➸ ${prefix}loli1*
 ║ ➸ ${prefix}hentai*
@@ -42,9 +42,9 @@ const menu2 = (prefix) => {
 ║ ➸ ${prefix}canal*
 ║ ➸ ${prefix}nsfwloli1*
 ║ ➸ ${prefix}reislin*
-║    • ──── ✾ ──── •
-║   » INTELIGÊNCIA IA «
-║    • ──── ✾ ──── •
+║        • ──── ✾ ──── •
+║      » INTELIGÊNCIA IA «
+║        • ──── ✾ ──── •
 ║ ➸ ${prefix}simih 1 (para ativar)*
 ║ ➸ ${prefix}simih 0 (para desativar)*
 ║ ➸ ${prefix}simi (sua mensagem)*
